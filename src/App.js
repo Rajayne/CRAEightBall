@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">Magic Eight Ball</header>
-      <EightBall />
+      <EightBall answers={answers} />
     </div>
   );
 }
